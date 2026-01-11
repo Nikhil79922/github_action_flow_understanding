@@ -1,0 +1,13 @@
+name: Nikhil Singh
+
+on: 
+  push:
+     branches: [ main ] 
+
+jobs:
+  demo:
+     runs-on: ubuntu-lastest
+
+     steps: 
+       - name: Greeting
+         run: echo "Hello Nikhil"
